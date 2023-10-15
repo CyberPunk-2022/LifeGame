@@ -20,7 +20,7 @@ let game = function () {
     GAME_CANVAS.addEventListener("mousedown", mouseListener, false);
     updateTime=DEFAULT_UPDATE_TIME;
 };
-let clearAll = function () {
+let clean = function () {
     GAME.cells = generateCells();
     drawCells();
     stop();
